@@ -1,5 +1,5 @@
 import styles from '../../styles/Home.module.css';
-import Link from 'next/Link'
+import Link from 'next/link'
 export const getStaticProps =( async()=>{
     const res = await fetch('http://localhost:8000/blogs')
     const data = await res.json()
