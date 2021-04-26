@@ -120,3 +120,26 @@
     flex-direction: column;
   }
 }
+.SSS{
+  color: red;
+  font-size:30px;
+}
+.notfound{
+  color:red
+}
+.notfound:hover{
+  text-decoration-line: underline;
+}
+.blog{
+  position:relative;
+  left:80px;
+  top:80px;
+  max-width:200px;
+  padding:2px;background-color: aquamarine;
+  border:1px solid;
+  border-radius: 1px;
+  margin:10px
+}
+.blog:hover{
+  border-left:8px solid #4979ff;
+}
