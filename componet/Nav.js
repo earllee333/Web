@@ -9,7 +9,6 @@ const Nav = () => {
             <Link href ="/">Home</Link>
             <Link href='/about'>About</Link>
             <Link href='/contact'>Contact us</Link>
-            <Link href='/Blog-List'>Blog List</Link>
             <Link href="/recipes">Recipes</Link>
             <Link href="signup/login" ><div className='btw'>Sign/login</div></Link>
         </nav>
